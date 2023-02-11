@@ -1,0 +1,623 @@
+/*css structure start here*/
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+h1. h2. h3. h4. h5. h6{
+	font-family: 'Montserrat', sans-serif;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+a, a:hover{
+	text-decoration: none;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+/*css structure end here*/
+
+/*header css start*/
+.header{
+	width: 100%;
+}
+
+.header .navbar-expand-lg .navbar-nav .nav-link{
+	color: #000;
+	font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0px 0px 0px 32px;
+    padding: 0px;
+    text-transform: uppercase;
+}
+
+.header .navbar-expand-lg .navbar-nav .nav-link:hover{
+	color: #f56131 ;
+	transition: 0.5s;
+}
+
+.header .navbar-expand-lg .navbar-nav .nav-link:focus{
+	color: #f56131 ;
+}
+
+.header .navbar-toggler {
+    background: #f56131 !important;
+    color: #000 !important;
+    outline: 0px !important;
+    border: 0px;
+    box-shadow: 0 0 0 0.0rem !important;
+}
+
+.header .fixed-top {
+    background: #fff;
+}
+
+.header .menu-link{
+	margin: 0px 0px 0px 120px;
+}
+
+.header .menu-link .menu-social-icons{
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.header .menu-link .menu-social-icons li{
+	display: inline-block;
+	list-style: none;
+}
+
+.header .menu-link .menu-social-icons li a{
+	display: block;
+	height: 30px;
+	width: 30px;
+	font-size: 18px;
+	color: #000000;
+	background: transparent;
+	margin: 0px 10px 0px 0px;
+}
+
+.header .menu-link .menu-social-icons li a:hover{
+	background: transparent;
+	color: #f56131;
+	transition: 0.5s;
+}
+/*header css end*/
+
+/*banner css start*/
+.banner{
+	width: 100%;
+	padding: 180px 0px;
+	margin: 70px 0px 0px;
+	background: url("../images/banner-bg.png") center top no-repeat;
+	background-size: cover;
+}
+
+.banner .inner-banner h2{
+	font-family: Montserrat;
+	font-size: 72px;
+	font-weight: 700;
+	line-height: 1em;
+	margin: 0px 0px 20px;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.banner .inner-banner p{
+	font-family: 'Lato';
+	font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4em;
+    color: #fff;
+    margin: 0px 0px 20px;
+}
+
+.banner .banner-button .btn-primary{
+	padding: 12px 30px;
+    margin: 30px 0px 0px 0px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+    background: #f56131;
+    border: 1px solid #f56131;
+    transition: 1s;
+    border-radius: 0px;
+}
+
+.banner .banner-button .btn-primary:hover{
+	color: #000;
+	background: #fff;
+	border: 1px solid #fff;
+}
+
+.banner .banner-button .btn-primary:focus{
+	color: #000;
+	background: #fff;
+	border: 1px solid #fff;
+}
+
+/*banner css end*/
+
+/*about css start*/
+.about{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("../images/slide-bg.png") center top no-repeat;
+	background-size: cover;
+}
+
+.about .inner-about h2{
+	font-family: Montserrat;
+	font-size: 40px;
+	font-weight: 600;
+	line-height: 1.2em;
+	margin: 0px 0px 20px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.about .inner-about p{
+	font-family: 'Lato';
+	font-size: 14px;
+    font-weight: 300;
+    line-height: 1.4em;
+    color: #fff;
+    margin: 0px 0px 20px;
+}
+
+.about .about-button .btn-primary{
+	padding: 12px 30px;
+    margin: 30px 0px 0px 0px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+    background: #f56131;
+    border: 1px solid #f56131;
+    transition: 1s;
+    border-radius: 0px;
+}
+
+.about .about-button .btn-primary:hover{
+	color: #000;
+	background: #fff;
+	border: 1px solid #fff;
+}
+
+.about .about-button .btn-primary:focus{
+	color: #000;
+	background: #fff;
+	border: 1px solid #fff;
+}
+
+/*about css end*/
+
+/*feature css start*/
+.feature{
+	width: 100%;
+	padding: 80px 0px;
+}
+
+.feature .feature-left{
+	padding: 120px 0px 0px;
+}
+
+.feature .feature-left h2{
+	font-family: Montserrat;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.2em;
+	margin: 0px 0px 20px;
+	color: #2f2339;
+	text-transform: uppercase;
+}
+
+.feature .feature-left .feature-button .btn-primary{
+	padding: 12px 30px;
+    margin: 20px 0px 0px 0px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+    background: #2f2339;
+    border: 1px solid #2f2339;
+    transition: 1s;
+    border-radius: 0px;
+}
+
+.feature .feature-left .feature-button .btn-primary:hover{
+	color: #fff;
+	background: #ee5d30;
+	border: 1px solid #ee5d30;
+}
+
+.feature .feature-left .feature-button .btn-primary:focus{
+	color: #fff;
+	background: #ee5d30;
+	border: 1px solid #ee5d30;
+}
+
+.feature .feature-right{
+	width: 100%;
+	padding: 40px;
+	background: #ee5d30;
+	text-align: center;
+}
+
+.feature .feature-right h4{
+	font-family: Montserrat;
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 1.2em;
+	margin: 20px 0px;
+	color: #fff;
+}
+
+.feature .feature-right p{
+	font-family: 'Lato';
+	font-size: 14px;
+    font-weight: 300;
+    line-height: 1.4em;
+    color: #fff;
+}
+
+/*feature css end*/
+
+/*app css start*/
+
+.app{
+	width: 100%;
+	padding: 80px 0px;
+	
+}
+
+.app .app-heading{
+	width: 100%;
+	background: url("../images/app1.png") center top no-repeat;
+	background-size: cover;
+	padding: 20px;
+	margin: 0px 0px 40px;
+
+}
+
+.app .app-heading h2{
+	font-family: Montserrat;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.2em;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.app .app-body{
+	margin: 50px 0px 0px;
+}
+
+.app .app-body h6{
+	font-family: Montserrat;
+	font-size: 24px;
+	font-weight: 600;
+	margin: 0px 0px 20px;
+	color: #2f2339;
+	text-transform: uppercase;
+}
+
+.app .app-body p{
+	font-family: 'Lato';
+	font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4em;
+    color: #2f2339;
+}
+/*app css end*/
+
+/*apple start*/
+.apple{
+	width: 100%;
+	padding: 70px 0px;
+	background: url("../images/apple.png") center top no-repeat;
+	background-size: cover;
+}
+
+.apple .inner-apple h2{
+	padding: 80px;
+	font-family: Montserrat;
+	font-size: 52px;
+	line-height: 1.2em;
+	font-weight: 700;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+/*apple end*/
+
+
+/*articles css start*/
+.articles{
+	width: 100%;
+	padding: 80px 0px;
+}
+
+.articles .art-left{
+	padding: 0px 30px 0px 0px;
+}
+
+.articles .card {
+	width: 100%;
+	padding: 10px;
+	background: #FFFFFF;
+	box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+	border-radius: 18px;
+	border: 0px;
+	margin: 0px 0px 20px;
+}
+
+.articles .card:hover{
+	background: #2f2339;
+	color: #fff;
+	cursor: pointer;
+}
+
+.articles .card .card-body h5{
+	font-family: Montserrat;
+	font-size: 20px;
+	font-weight: 600;
+	margin: 0px 0px 20px;
+	text-transform: uppercase;
+}
+
+.articles .card .card-body p{
+	font-family: 'Lato';
+	font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4em;
+}
+
+
+.articles .articales-right{
+	padding: 120px 0px 0px;
+}
+.articles .articales-right h2{
+	font-family: Montserrat;
+	font-size: 52px;
+	line-height: 1.2em;
+	font-weight: 700;
+	color: #2f2339;
+	text-transform: uppercase;
+	margin: 0px 0px 20px;
+}
+
+.articles .articales-right h6{
+	font-family: Montserrat;
+	font-size: 20px;
+	font-weight: 600;
+	margin: 0px 0px 20px;
+	color: #2f2339
+}
+
+.articles .articales-right p{
+	font-family: 'Lato';
+	font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4em;
+    color: #2f2339;
+}
+
+.articles .articles-button .btn-primary{
+	padding: 12px 30px;
+    margin: 20px 0px 0px 0px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+    background: #2f2339;
+    border: 1px solid #2f2339;
+    transition: 1s;
+    border-radius: 0px;
+}
+
+.articles .articles-button .btn-primary:hover{
+	color: #fff;
+	background: #ee5d30;
+	border: 1px solid #ee5d30;
+}
+
+.articles .articles-button .btn-primary:focus{
+	color: #fff;
+	background: #ee5d30;
+	border: 1px solid #ee5d30;
+}
+/*articles css end*/
+
+/*thanks css start*/
+
+.thanks{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("../images/thanks-bg.png") center top no-repeat;
+	background-size: cover;
+}
+
+.thanks .inner-thanks{
+	width: 100%;
+	text-align: center;
+}
+
+.thanks .inner-thanks h2{
+	font-family: Montserrat;
+	font-size: 42px;
+	font-weight: 700;
+	color: #fff;
+	text-transform: uppercase;
+	margin: 0px 0px 20px;
+}
+
+.thanks .inner-thanks h6{
+	font-family: Montserrat;
+	font-size: 24px;
+	font-weight: 600;
+	margin: 0px 0px 20px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.thanks .inner-thanks p{
+	font-family: 'Lato';
+	font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4em;
+    color: #fff;
+}
+/*thanks css end*/
+
+/*contact css start*/
+
+.contact{
+	width: 100%;
+	padding: 80px 0px;
+}
+
+.contact .contact-left h4{
+	font-family: Montserrat;
+	font-size: 22px;
+	font-weight: 600;
+	margin: 0px 0px 40px;
+	text-transform: uppercase;
+}
+
+.contact-left .feature-box{
+	display: flex;
+}
+
+.contact-left .feature-box .icon img{
+	width: 120px;
+}
+
+.contact-left .feature-box .content h6{
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 500;
+	margin: 20px 0px 0px;
+	text-transform: uppercase;
+}
+
+.contact-left .feature-box .content p{
+	font-family: 'Lato';
+	font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4em;
+    margin: 10px 0px 0px;
+}
+
+.contact .contact-right h4{
+	font-family: Montserrat;
+	font-size: 22px;
+	font-weight: 600;
+	margin: 0px 0px 40px;
+	text-transform: uppercase;	
+}
+
+
+.contact .contact-right .contact-form{
+	width: 100%;
+}
+
+.contact .contact-right .form-control{
+	background: transparent;
+	color: #000;
+	border-radius: 0px;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 2px solid #cacaca;
+	padding: 10px 0px;
+	
+}
+
+.contact .contact-right .contact-form input::placeholder, .contact-form textarea::placeholder{
+	font-family: 'Lato';
+	color: #000;
+}
+
+.contact .contact-right .form-control:focus {
+    color: #000;
+    background-color: transparent;
+    border-color: none;
+    outline: 0;
+    box-shadow: 0 0 0 0.0rem rgb(13 110 253 / 25%);
+}
+
+.contact .contact-right .contact-button .btn-primary{
+	padding: 12px 30px;
+    margin: 20px 0px 0px 0px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    background: #ee5d30;
+    border: 1px solid #ee5d30;
+    transition: 1s;
+    border-radius: 0px;
+}
+
+.contact .contact-right .contact-button .btn-primary:hover{
+	color: #fff;
+	background: #2f2339;
+	border: 1px solid #2f2339;
+}
+
+.contact .contact-right .contact-button .btn-primary:focus{
+	color: #fff;
+	background: #2f2339;
+	border: 1px solid #2f2339;
+}
+/*contact css end*/
+
+/*copyright css start*/
+
+.copyright{
+	width: 100%;
+	padding: 40px 0px;
+	background: #2f2339;
+	text-align: center;
+}
+
+.copyright p{
+	font-family: 'Lato';
+	font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.copyright p a{
+	text-decoration: none;
+	color: #fff;
+	letter-spacing: 1px;
+}
+
+.copyright p a:hover{
+	color: #ee5d30;
+	transition: 1s;
+}
+/*copyright css end*/

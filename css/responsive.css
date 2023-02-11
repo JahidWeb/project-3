@@ -1,0 +1,458 @@
+@media (min-width: 280px) and (max-width: 319px){
+/* css start*/
+.header .menu-link {
+    margin: 10px 0px 0px 0px;
+}
+
+.header .navbar-expand-lg .navbar-nav .nav-link {
+    margin: 6px 0px 0px 0px;
+ }
+
+.banner {
+    padding: 60px 0px;
+    margin: 100px 0px 0px;
+}
+
+.banner .inner-banner h2 {
+    font-size: 42px;
+}
+
+.banner .inner-banner p {
+    font-size: 9px;
+    margin: 0px 0px 0px;
+}
+
+.banner .banner-button .btn-primary {
+    padding: 10px 26px;
+    font-size: 12px;
+}
+
+.about {
+    padding: 60px 0px 60px 60px;
+}
+
+.about .inner-about h2 {
+    font-size: 22px;
+    text-align: right;
+ }
+
+ .about .inner-about p {
+    font-size: 10px;
+    text-align: right;
+}
+
+.about .about-button{
+	text-align: right;
+}
+
+.about .about-button .btn-primary {
+	padding: 10px 26px;
+    font-size: 12px;
+}
+
+.feature .feature-left {
+    padding: 0px 0px 0px;
+}
+
+.feature .feature-left h2 {
+    font-size: 32px;
+}
+
+.feature .feature-left .feature-button{
+	margin: 0px 0px 40px;
+}
+
+.feature .feature-right{
+	margin: 0px 0px 40px;
+}
+
+.app {
+    padding: 0px 0px 60px;
+}
+
+.app .app-heading h2 {
+    font-size: 20px;
+}
+
+.app .app-body {
+    margin: 0px 0px 0px;
+}
+
+.app .app-body p {
+    margin: 0px 0px 40px;
+}
+
+.apple .inner-apple h2 {
+    padding: 0px;
+    font-size: 12px;
+}    
+
+.articles .art-left {
+    padding: 0px 0px 0px 0px;
+}
+
+.articles .articales-right {
+    padding: 40px 0px 0px;
+}
+
+.articles .articales-right h2 {
+    font-size: 36px;
+}
+
+.articles .articales-right p {
+    font-size: 12px;
+}
+
+.articles .card .card-body h5 {
+    font-size: 16px;
+}
+
+.articles .card .card-body p {
+    font-size: 14px;
+}
+
+.art-left .col-6 {
+    width: 100%;
+}
+
+.thanks .inner-thanks h2 {
+    font-size: 22px;
+}
+
+.thanks .inner-thanks p {
+    font-size: 12px;
+}
+
+.contact .contact-left h4 {
+    font-size: 17px;
+    margin: 0px 0px 20px;
+}
+
+.contact-left .feature-box .icon img {
+    width: 80px;
+}
+
+.contact .contact-right h4 {
+    font-size: 20px;
+    margin: 40px 0px 20px;
+}
+
+
+.contact-left .feature-box .content p {
+    font-size: 14px;
+}
+
+.contact .contact-right .contact-button .btn-primary {
+    padding: 10px 26px;
+    font-size: 12px;
+}
+/* css end*/
+}
+
+
+@media (min-width: 320px) and (max-width: 480px){
+/* css start*/
+.header .menu-link {
+    margin: 10px 0px 0px 0px;
+}
+
+.header .navbar-expand-lg .navbar-nav .nav-link {
+    margin: 6px 0px 0px 0px;
+ }
+
+.banner {
+    padding: 60px 0px;
+    margin: 100px 0px 0px;
+}
+
+.banner .inner-banner h2 {
+    font-size: 52px;
+}
+
+.banner .inner-banner p {
+    font-size: 10px;
+    margin: 0px 0px 0px;
+}
+
+.banner .banner-button .btn-primary {
+    padding: 10px 26px;
+    font-size: 12px;
+}
+
+.about {
+    padding: 60px 0px 60px 60px;
+}
+
+.about .inner-about h2 {
+    font-size: 22px;
+    text-align: right;
+ }
+
+ .about .inner-about p {
+    font-size: 10px;
+    text-align: right;
+}
+
+.about .about-button{
+	text-align: right;
+}
+
+.about .about-button .btn-primary {
+	padding: 10px 26px;
+    font-size: 12px;
+}
+
+.feature .feature-left {
+    padding: 0px 0px 0px;
+}
+
+.feature .feature-left .feature-button{
+	margin: 0px 0px 40px;
+}
+
+.feature .feature-right{
+	margin: 0px 0px 40px;
+}
+
+.app {
+    padding: 0px 0px 60px;
+}
+
+.app .app-body {
+    margin: 0px 0px 0px;
+}
+
+.app .app-body p {
+    margin: 0px 0px 40px;
+}
+
+.apple .inner-apple h2 {
+    padding: 0px;
+    font-size: 18px;
+}    
+
+.articles .art-left {
+    padding: 0px 0px 0px 0px;
+}
+
+.art-left .col-6 {
+    width: 100%;
+}
+
+.thanks .inner-thanks h2 {
+    font-size: 28px;
+}
+
+.thanks .inner-thanks p {
+    font-size: 14px;
+}
+
+.contact .contact-left h4 {
+    font-size: 17px;
+    margin: 0px 0px 20px;
+}
+
+.contact-left .feature-box .icon img {
+    width: 100px;
+}
+
+.contact .contact-right h4 {
+    font-size: 20px;
+    margin: 40px 0px 20px;
+}
+
+
+.contact .contact-right .contact-button .btn-primary {
+    padding: 10px 26px;
+    font-size: 12px;
+}
+/* css end*/
+}
+
+
+@media (min-width: 481px) and (max-width: 767px){
+/* css start*/
+
+.header .menu-link {
+    margin: 10px 0px 0px 0px;
+}
+
+.header .navbar-expand-lg .navbar-nav .nav-link {
+    margin: 6px 0px 0px 0px;
+ }
+
+.banner {
+    padding: 60px 0px;
+    margin: 100px 0px 0px;
+}
+
+.banner .inner-banner h2 {
+    font-size: 62px;
+}
+
+.banner .inner-banner p {
+    font-size: 14px;
+    margin: 0px 0px 0px;
+}
+
+.banner .banner-button .btn-primary {
+    padding: 12px 28px;
+    font-size: 14px;
+}
+
+.about {
+    padding: 60px 0px 60px 60px;
+}
+
+.about .inner-about h2 {
+    font-size: 24px;
+    text-align: right;
+ }
+
+ .about .inner-about p {
+    font-size: 10px;
+    text-align: right;
+}
+
+.about .about-button{
+	text-align: right;
+}
+
+.about .about-button .btn-primary {
+	padding: 12px 28px;
+    font-size: 14px;
+}
+
+.feature .feature-left {
+    padding: 0px 0px 0px;
+}
+
+.feature .feature-left .feature-button{
+	margin: 0px 0px 40px;
+}
+
+.feature .feature-right{
+	margin: 0px 0px 40px;
+}
+
+.app {
+    padding: 0px 0px 60px;
+}
+
+.app .app-body {
+    margin: 0px 0px 0px;
+}
+
+.app .app-body p {
+    margin: 0px 0px 40px;
+}
+
+.apple .inner-apple h2 {
+    padding: 0px;
+    font-size: 18px;
+    margin: 0px 0px 0px 20px;
+}    
+
+.art-left .col-6 {
+    width: 100%;
+}
+
+.articles .articales-right {
+    padding: 60px 0px 0px;
+}
+
+.thanks .inner-thanks h2 {
+    font-size: 36px;
+}
+
+.thanks .inner-thanks p {
+    font-size: 12px;
+}
+
+.contact .contact-left h4 {
+    font-size: 20px;
+    margin: 0px 0px 20px;
+}
+
+.contact-left .feature-box .icon img {
+    width: 110px;
+}
+
+.contact .contact-right h4 {
+    font-size: 22px;
+    margin: 40px 0px 20px;
+}
+
+
+.contact .contact-right .contact-button .btn-primary {
+    padding: 12px 28px;
+    font-size: 14px;
+}
+
+
+/* css end*/
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+/* css start*/
+
+.header .menu-link {
+    margin: 10px 0px 0px 0px;
+}
+
+.header .navbar-expand-lg .navbar-nav .nav-link {
+    margin: 6px 0px 0px 0px;
+ }
+
+.about {
+    padding: 60px 0px 60px 60px;
+}
+
+.about .inner-about h2 {
+    text-align: right;
+ }
+
+ .about .inner-about p {
+    text-align: right;
+}
+
+.about .about-button{
+	text-align: right;
+}
+
+.feature .feature-left {
+    padding: 0px 0px 0px;
+}
+
+.feature .feature-left .feature-button{
+	margin: 0px 0px 40px;
+}
+
+.feature .feature-right{
+	margin: 0px 0px 40px;
+}
+
+
+.app {
+    padding: 0px 0px 60px;
+}
+
+.app .app-body {
+    margin: 0px 0px 0px;
+}
+
+.app .app-body p {
+    margin: 0px 0px 40px;
+}
+
+.app .col-lg-4{
+	width: 50%;
+}
+
+.apple .inner-apple h2 {
+    padding: 0px 0px 0px 30px;
+    font-size: 42px;
+}
+/* css end*/
+}
